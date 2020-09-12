@@ -1,5 +1,5 @@
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/JasonBarker7/MineriaDeDatos/master/pima-indians-diabetes.csv"
+filename = "https://raw.githubusercontent.com/JasonBarker7/MineriaDeDatos/master/pima-indians-diabetes.csv"
 nombres = ['preg','plas','pression','skin','test','mass','pedi','age','clas']
-diabetes=pd.read_csv(url)
+diabetes=pd.read_csv(filename, names=nombres)
