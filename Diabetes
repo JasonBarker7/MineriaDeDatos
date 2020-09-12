@@ -1,4 +1,5 @@
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/JasonBarker7/MineriaDeDatos/master/pima-indians-diabetes.csv"
-nombres = ['preg','plas','pression','skin','test']
+nombres = ['preg','plas','pression','skin','test','mass','pedi','age','clas']
+diabetes=pd.read_csv(url)
